@@ -5,3 +5,6 @@ cabal.project.local
 tmp/
 *.agdai
 bench.html
+.stack-work/
+stack.yaml.lock
+stack.yaml
