@@ -21,8 +21,8 @@ module Data.Type.Dec (
     absurdNo,
     ) where
 
-import Data.Void (Void)
 import Data.Boring (Absurd (..), Boring (..))
+import Data.Void   (Void)
 
 -- | Intuitionistic negation.
 type Neg a = a -> Void

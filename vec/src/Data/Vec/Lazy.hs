@@ -83,9 +83,9 @@ module Data.Vec.Lazy (
     )  where
 
 import Prelude
-       (Bool (..), Eq (..), Functor (..), Int, Maybe (..), Monad (..), Num (..),
-       Ord (..), Ordering (..), Show (..), id, seq, showParen, showString,
-       uncurry, ($), (&&), (.))
+       (Bool (..), Eq (..), Functor (..), Int, Maybe (..), Monad (..),
+       Num (..), Ord (..), Ordering (..), Show (..), id, seq, showParen,
+       showString, uncurry, ($), (&&), (.))
 
 import Control.Applicative (Applicative (..), (<$>))
 import Control.DeepSeq     (NFData (..))
